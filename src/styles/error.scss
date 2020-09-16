@@ -1,0 +1,27 @@
+@import'./variables.scss';
+
+.error{
+    &__header{
+        background-image: url(./../components/images/Header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        text-align: center;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &__body{
+        padding-top: 50px;
+        background: $BACKGROUND_COLOR;
+        color: $WHITE_COLOR;
+        height: 500px;
+        .container {
+            width: 80%;        
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
